@@ -1,0 +1,26 @@
+<body>
+
+  <div>
+    <div
+      style="display: flex; align-items: center; justify-content: center; flex-direction: column; border: 1px solid black;"
+    >
+      <div style="margin-bottom: 5px;"
+      >
+        <button style="margin-right: 5px;" onclick="toggleSetup(this)"
+          >
+          Start
+        </button>
+        <button
+          onclick="setDataAndDraw(getDefaultDataCyclic())"
+        >
+          Clear
+        </button>
+      </div>
+      <canvas
+        id="canvas"
+        style="border: 1px solid black"
+      ></canvas>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
